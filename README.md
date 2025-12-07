@@ -16,7 +16,7 @@ It is intentionally designed as a **flagship portfolio project** showing end-to-
 ---
 
 ## 📁 Repository Structure
-
+```
 ops-labor-analysis/
 │
 ├── data/
@@ -38,7 +38,7 @@ ops-labor-analysis/
 │ └── analysis_queries.sql # full SQL script with documentation
 │
 └── README.md
-
+```
 
 ---
 
