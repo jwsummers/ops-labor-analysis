@@ -9,8 +9,6 @@ SET search_path TO public;
 
 -- =========================================================
 -- 1. TABLE DEFINITION (raw imported data)
---    Note: In practice you imported via pgAdmin's CSV wizard.
---    This DDL is here so others can recreate the structure.
 -- =========================================================
 
 CREATE TABLE IF NOT EXISTS ro_issues (
@@ -38,8 +36,6 @@ CREATE TABLE IF NOT EXISTS ro_issues (
 
 -- =========================================================
 -- 2. (OPTIONAL) EXAMPLE: LOAD DATA FROM CSV
---    You used pgAdmin’s Import tool. This is here for reference.
---    Update the path as needed if someone wants to rerun it.
 -- =========================================================
 -- COPY ro_issues (
 --     id, week, ro_number, tech_initials, category, action_taken,
@@ -295,7 +291,6 @@ GROUP BY category, tech_initials
 ORDER BY category, total_cost_overcharge DESC;
 
 -- 7.2 Category totals vs shop average for a specific tech (example: RL)
---     You used a Python helper for this, but here’s a pure SQL variant.
 
 WITH tech_cat AS (
     SELECT
@@ -325,8 +320,6 @@ FROM tech_cat t
 FULL OUTER JOIN shop_cat s
     ON t.category = s.category
 ORDER BY category;
-
--- (You can swap 'RL' for 'AD', 'FF', 'KG', etc. as needed.)
 
 -- =========================================================
 -- 8. RISK BUCKET & SEVERITY ANALYSIS
