@@ -1,4 +1,4 @@
-# 🔧 Operational Labor Overcharge Analysis  
+# Operational Labor Overcharge Analysis  
 ### **A Data Analytics Project by Jason Summers**
 
 This project analyzes labor inconsistencies, overcharges, and operational inefficiencies in an automotive reconditioning workflow.  
@@ -15,7 +15,7 @@ It is intentionally designed as a **flagship portfolio project** showing end-to-
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 ```
 ops-labor-analysis/
 │
@@ -42,7 +42,7 @@ ops-labor-analysis/
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project explores patterns behind:
 
@@ -58,7 +58,7 @@ It mirrors real operational problems in automotive reconditioning: technician ef
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 ### **Excel**
 
@@ -100,7 +100,7 @@ SQL was then used for:
 
 ---
 
-## 🐍 Python Analysis
+## Python Analysis
 
 Inside the included Jupyter Notebook:
 
@@ -122,7 +122,7 @@ Inside the included Jupyter Notebook:
 
 ---
 
-## 📊 Power BI Dashboard
+## Power BI Dashboard
 
 The interactive dashboard includes:
 
@@ -149,7 +149,7 @@ The dashboard enables real-world operational decision-making and coaching strate
 
 ---
 
-## 🚀 Key Insights
+## Key Insights
 
 > The project consistently found that **incorrect labor and overlapping labor** contribute the majority of overcharges.
 
@@ -161,7 +161,7 @@ The dashboard enables real-world operational decision-making and coaching strate
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 ### **Core Analytics Skills**
 - Data cleaning & preprocessing  
@@ -183,7 +183,7 @@ The dashboard enables real-world operational decision-making and coaching strate
 
 ---
 
-## 📌 About This Project
+## About This Project
 
 This project reflects my real-world experience performing operational analysis in the automotive industry, where I’ve done:
 - Repair Order Auditing
@@ -196,7 +196,7 @@ I built this repository as part of my transition into professional Data Analyst 
 
 ---
 
-## 👋 About Me
+## About Me
 
 I’m Jason Summers, a diagnostics expert, operations analyst, and aspiring data analyst.
 
@@ -204,7 +204,7 @@ After 20+ years solving complex automotive and operational problems, I now apply
 
 ---
 
-## 📬 Contact
+## Contact
 
 If you'd like to discuss this project or opportunities:
 - LinkedIn: https://www.linkedin.com/in/jason-w-summers/
